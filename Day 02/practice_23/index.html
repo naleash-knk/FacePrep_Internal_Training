@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Switcher</title>
+</head>
+<body>
+    <img id="lgt" src="off.jpg" alt="Light Image"><br>
+    <hr>
+    <button type="button" onclick="light(2)">Light On - High Beam</button>
+    <button type="button" onclick="light(1)">Light On - Low Beam</button>
+    <button type="button" onclick="light(0)">Light Off</button>
+
+    <script>
+        function light(sw){
+            var pic;
+            if(sw==2){
+                pic = "on.jpg";
+            }
+            else if(sw==1){
+                pic="semi_on.jpg";
+            }
+            else{
+                pic="off.jpg";
+            }
+            document.getElementById("lgt").src=pic;
+        }
+    </script>
+</body>
+</html>
