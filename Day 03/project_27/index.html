@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 27 Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Project Platform</h1>
+    </header>
+   <nav>
+    <button onclick="loadPage('https://line-mode.cern.ch/www/hypertext/WWW/TheProject.html','WWW')">
+        WWW
+    </button>
+    <button onclick="loadPage('https://openlibrary.org','Open Library')">
+        Open Library
+    </button>
+    <button onclick="loadPage('https://home.web.cern.ch/about/','CERN')">
+        CERN
+    </button>
+    <button onclick="loadPage('demo.html','Home')">
+        Reset
+    </button>
+</nav>
+<h3 id="currentSite">
+    Current Page : Home
+</h3>
+<iframe
+    src="demo.html"
+    id="frame"
+    name="frame_a">
+</iframe>
+    <script src="script.js"></script>
+</body>
+</html>
