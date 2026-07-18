@@ -1,0 +1,35 @@
+h1{
+  color:plum;
+  text-align: center;
+  width:100%;
+  font-weight: bolder;
+}
+
+table{
+  border-collapse:collapse;
+  margin: auto;
+  width:75%;
+}
+
+tr:nth-child(even){
+  background-color:deepskyblue;
+}
+tr:nth-child(odd){
+  background-color:lightblue;
+}
+
+th{
+  width: 25%;
+  text-align: center;
+}
+
+tr{
+  height: 50px;
+  border-bottom:
+}
+
+tr:hover{
+  background-color: floralwhite;
+  transition: 0.3s;
+  transform: scale(1.03);
+}
