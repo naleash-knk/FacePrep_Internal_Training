@@ -1,0 +1,23 @@
+body{
+background:#ddd;
+font-family:Arial;
+}
+
+.card{
+width:280px;
+margin:60px auto;
+background:white;
+padding:20px;
+text-align:center;
+}
+
+img{
+width:100%;
+}
+
+button{
+padding:10px 20px;
+background:#ff5722;
+color:white;
+border:none;
+}
